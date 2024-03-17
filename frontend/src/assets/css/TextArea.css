@@ -1,0 +1,78 @@
+.textarea {
+    flex-direction: column;
+    flex: none;
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 8px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.text-wrapper-4 {
+    color: var(--black);
+    font-family: var(--title-4-18pt-font-family);
+    font-size: var(--title-4-18pt-font-size);
+    font-style: var(--title-4-18pt-font-style);
+    font-weight: var(--title-4-18pt-font-weight);
+    letter-spacing: var(--title-4-18pt-letter-spacing);
+    line-height: var(--title-4-18pt-line-height);
+    align-self: stretch;
+    margin-top: -1px;
+    position: relative;
+}
+
+.frame-5 {
+    background-color: var(--white);
+    flex: none;
+    justify-content: flex-end;
+    align-self: stretch;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+textarea {
+    color: var(--black);
+    font-family: var(--body-2-16pt-font-family);
+    font-size: var(--body-2-16pt-font-size);
+    font-style: var(--body-2-16pt-font-style);
+    font-weight: var(--body-2-16pt-font-weight);
+    letter-spacing: var(--body-2-16pt-letter-spacing);
+    line-height: var(--body-2-16pt-line-height);
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 12px;
+    flex: none;
+    justify-content: flex-end;
+    align-self: stretch;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin-top: -1px;
+    padding: 8px 12px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .invalidLoginLabel{
+    border: 0px none;
+    height: 24px;
+    width: 344px;
+  }
+  
+  .invalidLoginText {
+    color: #e50c0c;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+  }
